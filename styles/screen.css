@@ -68,7 +68,7 @@ main{
 .mod{
     background-color:#b2b1b1;
     border-radius: 10%;
-    height: 40vw;
+    height: 30vw;
     padding:auto;
     align-content: center;
 }
@@ -77,10 +77,6 @@ h1,h4 {
     text-align:center;
     content:center;
 }
-
-.Solar_Planet {
-   
-  }
 
 .Sun span{
     background-color: #FFB700;
