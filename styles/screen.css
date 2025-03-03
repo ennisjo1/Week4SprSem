@@ -57,30 +57,101 @@ img.about {
 }
 
 main{
+    align-content: center;
     display: grid;
     grid-template-columns: repeat(5, 16vw);
-    grid-auto-rows:(40px);
     gap:2vw;
     border-color: #212431;
     margin-top: 3vw;
+
 }
 .mod{
     background-color:#b2b1b1;
     border-radius: 10%;
     height: 40vw;
-    grid-template-columns: repeat(5, 16vw);
-}
-h1,h4 {
-    margin:auto;
-}
-svg.sun{
-    justify-content: center;
+    padding:auto;
+    align-content: center;
 }
 
-.mod {
-    height: 500px;
-    width: 500px;
-    background-color: #bbb;
+h1,h4 {
+    text-align:center;
+    content:center;
+}
+
+.Solar_Planet {
+   
+  }
+
+.Sun span{
+    background-color: #FFB700;
+    height: 16vw;
+    width: 16vw;
     border-radius: 50%;
     display: inline-block;
-  }
+    
+}
+.Jupiter span{
+    background-color: #fc9E44;
+    height: 16vw;
+    width: 16vw;
+    border-radius: 50%;
+    display: inline-block;
+}
+.Earth span{
+    background-color: #FFB700;
+    height: 1.43vw;
+    width: 1.43vw;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.Mercury span{
+    background-color: #504E51;
+    height:1.55vw;
+    width:1.55vw;
+    border-radius: 50%;
+    display: inline-block;
+}
+.Venus span{
+    background-color: #F1BE8B;
+    height:1.4vw;
+    width:1.4vw;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.Uranus span{
+    background-color: #ACE5EE;
+    height:1.45vw;
+    width:1.45vw;
+    border-radius: 50%;
+    display: inline-block;
+}
+.Mars span{
+    background-color: #E27B58;
+    height:.77vw;
+    width:.77vw;
+    border-radius: 50%;
+    display: inline-block;
+}
+.Saturn span{
+    background-color: #Eddbad;
+    height:13vw;
+    width:13vw;
+    border-radius: 50%;
+    display: inline-block;
+}
+.Uranus span{
+    background-color: #ACE5EE;
+    height:5.8vw;
+    width:5.8vw;
+    border-radius: 50%;
+    display: inline-block;
+}
+.Neptune span{
+    background-color: #2E5D9D;
+    height:5.6vw;
+    width:5.6vw;
+    border-radius: 50%;
+    display: inline-block;
+}
