@@ -9,14 +9,17 @@ title: 11ty Boilerplate
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/styles/screen.css">
-  	<script src="https://unpkg.com/scrollreveal@4"></script>
+  <script src="https://unpkg.com/scrollreveal@4"></script>
+	<script>
+		ScrollReveal({ duration: 1000 })
+	</script>
 </head>
 <body>
   <nav>
     <ul>
       <li><a href="/" id=Pandalink"><img src="/images/Panda.svg" alt="Signature" id="Panda"></a></img></li>
-      <li><a href="/" class=Nav_Menu_Word title="Go home">Home</a></li>
-      <li><a href="/about/" class=Nav_Menu_Word title="About the boilerplate">About</a></li>
+      <li><a href="/" class="Nav_Menu_Word" title="Go home">Home</a></li>
+      <li><a href="/about/" class="Nav_Menu_Word" title="About the boilerplate">About</a></li>
     </ul>
   </nav>
     {{ content }}
